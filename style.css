@@ -1,4 +1,4 @@
-/* Universal styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +12,6 @@ body {
     padding: 0;
 }
 
-/* Header styles */
 header {
     background-color: navy;
     color: whitesmoke;
@@ -22,7 +21,6 @@ header {
     font-weight: bold;
 }
 
-/* Main container */
 .container {
     display: flex;
     flex-direction: column;
@@ -31,7 +29,6 @@ header {
     padding: 20px;
 }
 
-/* Form layout */
 .screen-body-item {
     display: flex;
     flex-direction: column;
@@ -41,11 +38,10 @@ header {
     max-width: 600px;
 }
 
-/* Input styles */
 input {
     margin: 10px;
-    width: 100%; /* Make input fields responsive */
-    max-width: 300px; /* Limit the maximum width */
+    width: 100%; 
+    max-width: 300px; 
     height: 40px;
     font-size: 18px;
     padding: 5px;
@@ -53,7 +49,6 @@ input {
     text-align: center;
 }
 
-/* Button styles */
 .form-button {
     background-color: navy;
     color: whitesmoke;
@@ -67,7 +62,6 @@ input {
     background-color: darkblue;
 }
 
-/* Result display */
 .showdata {
     background-color: navy;
     color: whitesmoke;
@@ -79,7 +73,6 @@ input {
     max-width: 600px;
 }
 
-/* Responsive design using media queries */
 @media screen and (max-width: 768px) {
     header {
         font-size: 28px; /* Adjust header font size for smaller screens */
